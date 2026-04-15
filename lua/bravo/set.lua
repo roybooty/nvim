@@ -32,6 +32,9 @@ vim.opt.termguicolors = true
 vim.opt.showmode = false
 vim.opt.guicursor = "n-v-c-i:block"
 vim.opt.guicursor = vim.opt.guicursor
-
+--set mouse=
+-- Force the background to be transparent (shows your terminal's black)
+vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
 -- No automatic comment insertion
 vim.cmd([[autocmd FileType * set formatoptions-=ro]])
