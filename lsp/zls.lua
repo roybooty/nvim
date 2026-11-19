@@ -15,7 +15,7 @@ end
 
 ---@type vim.lsp.Config
 return {
-  cmd = { '/home/nash/dev/zls/zig-out/bin/zls' },
+  cmd = { '/home/roybooty/dev/zls/zig-out/bin/zls' },
   filetypes = { 'zig', 'zir' },
   root_markers = {
     'build.zig',
